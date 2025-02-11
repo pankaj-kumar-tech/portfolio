@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Kumar Singh - Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 1rem 0;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+        }
+
+        .social-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        .social-links a:hover {
+            color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 1.5rem;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tech-icon {
+            font-size: 2.5rem;
+            margin: 0.5rem;
+            color: var(--primary-color);
+            transition: all 0.3s ease;
+        }
+
+        .tech-icon:hover {
+            transform: scale(1.1);
+            color: var(--secondary-color);
+        }
+
+        .tech-item {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .tech-name {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: #666;
+        }
+
+        .profile-header {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+            padding: 3rem 0;
+            margin-bottom: 3rem;
+        }
+
+        .experience-date {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1.5rem 0;
+        }
+
+        .project-card {
+            height: 100%;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        }
+
+        .project-card .card-title {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-code me-2"></i>
+                Pankaj Kumar Singh
+            </a>
+        </div>
+    </nav>
+
+    <div class="profile-header">
+        <div class="container text-center">
+            <h1 class="display-4 mb-3">Pankaj Kumar Singh</h1>
+            <p class="lead mb-4">Full Stack Developer</p>
+            <div class="social-links">
+                <a href="mailto:91pksingh@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+919001506586" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://linkedin.com/in/pankaj-kumar-tech" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Pankaj-singh-tech" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Career Summary -->
+        <section class="mb-5">
+            <h2 class="section-title">
+                <i class="fas fa-user-tie me-2"></i>
+                Career Summary
+            </h2>
+            <p class="lead">Motivated MCA student with strong skills in both front-end and back-end development. Proficient in MySQL, Python, and Git, with hands-on experience as a PHP Developer Intern and Full-Stack Developer. Passionate about creating innovative solutions and optimizing performance in dynamic environments.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-5">
+            <h2 class="section-title">
+                <i class="fas fa-graduation-cap me-2"></i>
+                Education
+            </h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-university me-2"></i>
+                                Master of Computer Applications
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Vellore Institute of Technology</h6>
+                            <p class="card-text">2023 – 2025</p>
+                            <p class="card-text">
+                                <i class="fas fa-star me-2 text-warning"></i>
+                                CGPA: 8.23 (Current)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-university me-2"></i>
+                                Bachelor of Computer Applications
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Engineering College Bikaner</h6>
+                            <p class="card-text">2020 – 2023</p>
+                            <p class="card-text">
+                                <i class="fas fa-star me-2 text-warning"></i>
+                                Percentage: 70.5%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-5">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase me-2"></i>
+                Experience
+            </h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="card-title">
+                            <i class="fas fa-laptop-code me-2"></i>
+                            Full Stack Developer
+                        </h5>
+                        <span class="experience-date">Oct 2024 – Feb 2025</span>
+                    </div>
+                    <h6 class="card-subtitle mb-3 text-muted">Autodx technologies pvt ltd – Ahmedabad, Gujarat</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Developed and maintained four projects, including Flask and PHP applications</li>
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Built and optimized RESTful APIs for improved system efficiency</li>
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Implemented robust security protocols and authentication systems</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="card-title">
+                            <i class="fas fa-code me-2"></i>
+                            PHP Developer Intern
+                        </h5>
+                        <span class="experience-date">June 2024 – Sep 2024</span>
+                    </div>
+                    <h6 class="card-subtitle mb-3 text-muted">ISageBrum – Ahmedabad, Gujarat</h6>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Contributed to live projects and developed RESTful APIs</li>
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Implemented Slim Framework for scalable solutions</li>
+                        <li><i class="fas fa-check-circle me-2 text-success"></i>Optimized code performance and maintained best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-5">
+            <h2 class="section-title">
+                <i class="fas fa-project-diagram me-2"></i>
+                Projects
+            </h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-building me-2"></i>
+                                Paying Guest Management System
+                            </h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Full-fledged PG management system</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Secure authentication and role-based access</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>AJAX jQuery implementation</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Bootstrap-based responsive UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fab fa-youtube me-2"></i>
+                                YouTube Clone
+                            </h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Video-sharing platform with social features</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Real-time interactions with AJAX</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Custom user authentication system</li>
+                                <li><i class="fas fa-check-circle me-2 text-success"></i>Modern UI/UX design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies -->
+        <section class="mb-5">
+            <h2 class="section-title">
+                <i class="fas fa-tools me-2"></i>
+                Technologies
+            </h2>
+            <div class="row text-center">
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-html5 tech-icon"></i>
+                        <div class="tech-name">HTML5</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt tech-icon"></i>
+                        <div class="tech-name">CSS3</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-python tech-icon"></i>
+                        <div class="tech-name">Python</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-js tech-icon"></i>
+                        <div class="tech-name">JavaScript</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fas fa-database tech-icon"></i>
+                        <div class="tech-name">SQL</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-php tech-icon"></i>
+                        <div class="tech-name">PHP</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-flask tech-icon"></i>
+                        <div class="tech-name">Flask</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fab fa-node-js tech-icon"></i>
+                        <div class="tech-name">jQuery</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fas fa-chart-bar tech-icon"></i>
+                        <div class="tech-name">Matplotlib</div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4">
+                    <div class="tech-item">
+                        <i class="fas fa-table tech-icon"></i>
+                        <div class="tech-name">Pandas</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <p class="mb-0">&copy; 2025 Pankaj Kumar Singh. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap and FontAwesome Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
