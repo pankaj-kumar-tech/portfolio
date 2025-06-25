@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pankaj Kumar Singh - Resume</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --secondary-color: #1e40af;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    .navbar {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      padding: 1rem 0;
+    }
+    .section-title {
+      color: var(--primary-color);
+      font-weight: 600;
+      position: relative;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50px;
+      height: 3px;
+      background: var(--primary-color);
+    }
+    .social-links a {
+      color: var(--primary-color);
+      text-decoration: none;
+      margin: 0 1rem;
+      transition: all 0.3s ease;
+      font-size: 1.1rem;
+    }
+    .social-links a:hover {
+      color: var(--secondary-color);
+      transform: translateY(-2px);
+    }
+    .card {
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      margin-bottom: 1.5rem;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .profile-header {
+      background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+      padding: 3rem 0;
+      margin-bottom: 3rem;
+    }
+    .experience-date {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+    }
+    footer {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 1.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-code me-2"></i>Pankaj Kumar Singh</a>
+    </div>
+  </nav>
+
+  <div class="profile-header text-center">
+    <h1 class="display-4 mb-3">Pankaj Kumar Singh</h1>
+    <p class="lead mb-4">Full Stack Web Developer</p>
+    <div class="social-links">
+      <a href="mailto:91pksingh@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+919001506586"><i class="fas fa-phone"></i></a>
+      <a href="https://linkedin.com/in/pankaj-kumar-tech" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Pankaj-singh-tech" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Education -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-graduation-cap me-2"></i>Education</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5>Master of Computer Applications</h5>
+          <p class="mb-1 text-muted">Vellore Institute of Technology – Chennai (2023–2025)</p>
+          <p>CGPA: 8.56</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5>Bachelor of Computer Applications</h5>
+          <p class="mb-1 text-muted">Engineering College Bikaner – Rajasthan (2020–2023)</p>
+          <p>Percentage: 70.5%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-briefcase me-2"></i>Experience</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5>Full-stack Web Developer – autoDX Technologies Pvt Ltd</h5>
+          <p class="text-muted">Ahmedabad, Gujarat (Oct 2024 – Mar 2025)</p>
+          <ul>
+            <li>Worked on multiple web projects using Flask and JavaScript.</li>
+            <li>Developed secure APIs for login, data retrieval, and backend features.</li>
+            <li>Optimized SQL queries using indexing for performance.</li>
+            <li>Collaborated using Git and VS Code for efficient code management.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5>Backend Web Developer Intern – iSageBrum Technologies</h5>
+          <p class="text-muted">Ahmedabad, Gujarat (June 2024 – Sep 2024)</p>
+          <ul>
+            <li>Refactored backend Flask code for readability and speed.</li>
+            <li>Built RESTful APIs and tested with Postman.</li>
+            <li>Worked on live backend integration in real projects.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-project-diagram me-2"></i>Projects</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5>ExpertFolio – Interactive Profile Builder</h5>
+          <p>Jan 2025 – Mar 2025</p>
+          <ul>
+            <li>Portfolio builder with live preview and dynamic sections.</li>
+            <li>Users get personal website links for sharing instantly.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5>Smart Student Drive – Notes & AI Support</h5>
+          <p>June 2024 – Sep 2024</p>
+          <ul>
+            <li>File storage with folders, starred files, and trash management.</li>
+            <li>Integrated ChatPDF API for AI summaries and Q&A.</li>
+            <li>Dynamic MCQ generator by topic and difficulty.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-certificate me-2"></i>Certifications</h2>
+      <ul>
+        <li><a href="https://badgr.com/public/assertions/kAAEJPwSRtW7MstRqPCq8A" target="_blank">Postman API Fundamentals Student Expert – April 2025</a></li>
+        <li><a href="https://www.kaggle.com/learn/certification/pankaj23mca1070/python" target="_blank">Python by Kaggle – August 2023</a></li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-book me-2"></i>Publications</h2>
+      <p>Pix2Pix GAN for Image-to-Image Translation. In <strong>Generative AI</strong>, Chapter 4 (John Wiley & Sons, Ltd., 2025). <br/>
+        <a href="https://doi.org/10.1002/9781394302932.ch4" target="_blank">DOI Link</a>
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-tools me-2"></i>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, JavaScript</li>
+        <li><strong>Frontend:</strong> HTML, CSS</li>
+        <li><strong>Backend:</strong> Flask, REST APIs, MySQL</li>
+        <li><strong>Tools:</strong> Git, GitHub, Postman, VS Code</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p class="mb-0">&copy; 2025 Pankaj Kumar Singh. All rights reserved. | ORCID: <a href="https://orcid.org/0009-0002-4659-6295" class="text-light">0009-0002-4659-6295</a></p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
